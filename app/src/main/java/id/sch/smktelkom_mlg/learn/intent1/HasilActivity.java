@@ -16,6 +16,7 @@ public class HasilActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, HasilActivity.class));
+                onBackPressed();
             }
         });
 
